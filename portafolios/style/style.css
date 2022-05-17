@@ -233,8 +233,8 @@ main {
 }
 .subTituloInicio{
     color: white;
-    font-size: 35px;
-    margin-top: 55px ;
+    font-size: 30px;
+    /* margin-top: px ; */
 }
 .textInicio{
     color: white;
@@ -246,4 +246,21 @@ body{
 }
 strong{
     color: #6649b8;
+}
+.botonAbajo{
+    align-items: center;
+}
+.botonProyecto{
+    background-color: #6649b8;
+    color: white;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    font-size: 24px;
+    border-radius: 10px;
+    width: 175px;
+    height: 75px;
+}
+.botonProyecto:hover{
+    background-color: #000000;
+    border: 2px solid #6649b8;
 }
