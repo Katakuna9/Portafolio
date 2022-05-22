@@ -12,9 +12,10 @@
 body{
     line-height: 1.5;
     font-size: 16px;
-    font-family: 'Poppins' sans-serif;
+    font-family: 'Poppins' sans-serif;overflow-y: auto;
 }
 *{
+    
     margin: 0;
     padding: 0;
     outline: none;
@@ -249,6 +250,10 @@ ul{
 body{
     background-color: var(--skin-color-b);
 }
+img{
+    pointer-events: none;
+    user-select: none;
+}
 strong{
     color: var(--skin-color);
 }
@@ -281,17 +286,10 @@ strong{
     float: left;
     margin-left: 275px;
 }
-.pro1{
-    border: 2px solid var(--skin-color-w);
-    border-radius: 20px;
-    clear: left;
-}
-.pro2{
-    border: 2px solid var(--skin-color-w);
-    border-radius: 20px;
-    float: right; 
-}
+
 .imageRondeada{
+    border-radius: 20px;
+    border: 2px solid var(--skin-color-w);
     border-radius: 20px;
 }
 
@@ -332,6 +330,10 @@ strong{
     display: inline-block;
 }
 .contact .contact-info-item .icon .fa{
+    font-size: 25px;
+    color: var(--skin-color)
+}
+.contact .contact-info-item .icon .fa-brands{
     font-size: 25px;
     color: var(--skin-color)
 }
@@ -383,4 +385,10 @@ strong{
 .contact .contact-form .btn{
     height: 50px;
     padding: 0 50px;
+}
+.project{
+    flex: 0 0 25%;
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 60px;
 }
