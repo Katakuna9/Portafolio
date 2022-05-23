@@ -19,4 +19,4 @@ function toggleTheme() {
   localStorage.setItem('theme', next);
 }
 
-document.getElementById('themeButton').onclick = toggleTheme;
+// document.getElementById('themeButton').onclick = toggleTheme;
