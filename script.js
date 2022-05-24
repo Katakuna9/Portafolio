@@ -20,3 +20,61 @@ function toggleTheme() {
 }
 
 // document.getElementById('themeButton').onclick = toggleTheme;
+var vid = document.getElementById("mivideo");
+setInterval(btnsHidden, 500);
+function btnsHidden() {
+  if (vid.currentTime <= 15) {
+    document.getElementsByClassName("btns")[0].style.display = "inline-table";
+    document.getElementsByClassName("btns2")[0].style.display = "none";
+    document.getElementsByClassName("btns3")[0].style.display = "none";
+    document.getElementsByClassName("btns4")[0].style.display = "none";
+  }else if(vid.currentTime > 15 && vid.currentTime <= 104){
+    document.getElementsByClassName("btns")[0].style.display = "none";
+    document.getElementsByClassName("btns2")[0].style.display = "inline-table";
+    document.getElementsByClassName("btns3")[0].style.display = "none";
+    document.getElementsByClassName("btns4")[0].style.display = "inline-table";
+  }else if(vid.currentTime > 105 && vid.currentTime <= 155){
+    document.getElementsByClassName("btns")[0].style.display = "none";
+    document.getElementsByClassName("btns2")[0].style.display = "none";
+    document.getElementsByClassName("btns3")[0].style.display = "inline-table";
+    document.getElementsByClassName("btns4")[0].style.display = "inline-table";
+  }
+
+}
+function setMenuPrincipal() { 
+  vid.currentTime=5;
+}
+ function setFrondEnd() { 
+  vid.currentTime=14;
+} 
+function sethtml() { 
+  vid.currentTime=25;
+} 
+function setcss() { 
+  vid.currentTime=35;
+} 
+function setjs() { 
+  vid.currentTime=45;
+} 
+function setBoostrap() { 
+  vid.currentTime=55;
+} 
+function setBackEnd() { 
+  vid.currentTime=105;
+} 
+function setPhP() { 
+  vid.currentTime=115;
+} 
+function setLaravel() { 
+  vid.currentTime=125;
+} 
+function setvue() { 
+  vid.currentTime=135;
+} 
+function setMysql() { 
+  vid.currentTime=145;
+} 
+function setJava() { 
+  vid.currentTime=155;
+} 
+

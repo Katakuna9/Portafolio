@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script defer src="script.js"></script>
         <link rel="stylesheet" href="style/style.css" />
+        <link rel="icon" type="image/x-icon" href="media/img/cj_vectorizado.svg">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <title>Alex Cubells</title>
 </head>
@@ -13,7 +14,7 @@
     <div class="main-container">
         <div class="aside">
             <div class="logo">
-                <a href=""><span>a</span>appa</a>
+                <a href="index.html"><span>A</span>lex</a>
             </div>
             <!-- <div class="nav-toggler"> DESPLEGABLE
                 <span></span>
@@ -34,9 +35,37 @@
                             <h2>Lenguajes</h2>
                         </div>
                     </div>
+                    <div class="row">
+                        <video width="750" height="500" autoplay controls class="videoLenguaje" id="mivideo">
+                            <source src="media/video/Lenguaje.mp4" type="video/mp4">
+                        </video>
+                        <div class="btns padd-15">
+                            <button onclick="setFrondEnd()" class="btn2">Frond-end</button>
+                            <button onclick="setBackEnd()" class="btn2">Back-end</button>
+                        </div>
+                        <div class="btns2 padd-15">
+                            <button onclick="sethtml()" class="btn2">HTML</button>
+                            <button onclick="setcss()" class="btn2">CSS</button>
+                            <button onclick="setjs()" class="btn2">JavaScript</button>
+                            <button onclick="setBoostrap()" class="btn2">Boostrap</button>                 
+                        </div>
+                        <div class="btns3 padd-15">
+                            <button onclick="setPhP()" class="btn2">PHP</button>
+                            <button onclick="setLaravel()" class="btn2">Laravel</button>
+                            <button onclick="setvue()" class="btn2">Vue</button>
+                            <button onclick="setMysql()" class="btn2">Mysql</button>
+                            <button onclick="setJava()" class="btn2">Java</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="btns4 padd-15">
+                            <button onclick="setMenuPrincipal()" class="btn2">Menu principal</button>
+                        </div>
+                    </div>
                 </div>
             </section>
         </div>
     </div>
 </body>
+<script src="script.js"></script>
 </html>

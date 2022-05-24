@@ -399,3 +399,44 @@ strong{
     margin-left: 15px;
     margin-bottom: 50px;
 }
+.videoLenguaje{
+    text-align: center;
+    justify-content: center;
+    margin-left: 200px;
+}
+.btn2{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 35px;
+    color: var(--text-black-900);
+    border-radius: 15px;
+    display: inline-block;
+    white-space: nowrap;
+    background: var(--skin-color);
+    transition: all 0.3 ease;
+    margin-right: 25px;
+    /* display: inline-table; */
+    
+}
+.btn2:hover{
+    transform: scale(1.05);
+}
+.btns{
+    margin-left: 400px;
+    flex: 250px;
+}
+.btns2{
+    margin-left: 250px;
+    flex: 250px;
+    display: none;
+}
+.btns3{
+    margin-left: 225px;
+    flex: 250px;
+    display: none;
+}
+.btns4{
+    margin-top: 15px;
+    margin-left: 450px;
+    flex: 250px;
+}
