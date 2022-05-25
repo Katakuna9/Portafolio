@@ -28,12 +28,12 @@ function btnsHidden() {
     document.getElementsByClassName("btns2")[0].style.display = "none";
     document.getElementsByClassName("btns3")[0].style.display = "none";
     document.getElementsByClassName("btns4")[0].style.display = "none";
-  }else if(vid.currentTime > 15 && vid.currentTime <= 104){
+  }else if(vid.currentTime > 15 && vid.currentTime <= 65){
     document.getElementsByClassName("btns")[0].style.display = "none";
     document.getElementsByClassName("btns2")[0].style.display = "inline-table";
     document.getElementsByClassName("btns3")[0].style.display = "none";
     document.getElementsByClassName("btns4")[0].style.display = "inline-table";
-  }else if(vid.currentTime > 105 && vid.currentTime <= 155){
+  }else if(vid.currentTime > 65 && vid.currentTime <= 130){
     document.getElementsByClassName("btns")[0].style.display = "none";
     document.getElementsByClassName("btns2")[0].style.display = "none";
     document.getElementsByClassName("btns3")[0].style.display = "inline-table";
@@ -45,7 +45,7 @@ function setMenuPrincipal() {
   vid.currentTime=5;
 }
  function setFrondEnd() { 
-  vid.currentTime=14;
+  vid.currentTime=15;
 } 
 function sethtml() { 
   vid.currentTime=25;
