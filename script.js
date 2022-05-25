@@ -60,21 +60,21 @@ function setBoostrap() {
   vid.currentTime=55;
 } 
 function setBackEnd() { 
-  vid.currentTime=105;
+  vid.currentTime=65;
 } 
 function setPhP() { 
-  vid.currentTime=115;
+  vid.currentTime=75;
 } 
 function setLaravel() { 
-  vid.currentTime=125;
+  vid.currentTime=85;
 } 
 function setvue() { 
-  vid.currentTime=135;
+  vid.currentTime=95;
 } 
 function setMysql() { 
-  vid.currentTime=145;
+  vid.currentTime=105;
 } 
 function setJava() { 
-  vid.currentTime=155;
+  vid.currentTime=115;
 } 
 
